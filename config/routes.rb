@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  root 'hello/index'
+  root to: 'hello#index'
   post 'callback' => 'line_bot#callback'
 end
